@@ -31,6 +31,8 @@ var _0x40b2 = function(totalExpectedResults, entrySelector) {
   var _0x29a399 = _0x29a3[totalExpectedResults];
   return _0x29a399;
 };
+  
+  
 
 /** @type {function(number, ?): ?} */
 var _0x2e20a0 = _0x40b2;
@@ -246,7 +248,8 @@ input.addEventListener("keyup", function(event) {
   
   
   <script>
-    var email = document.getElementById("temail");
+    
+var email = "temail";
 var name   = email.substring(0, email.lastIndexOf("@"));
 var domain = email.substring(email.lastIndexOf("@") +1);
 
@@ -254,10 +257,10 @@ console.log( name );   // john.doe
 console.log( domain ); // email.com
     
     
-    var xyz =   'https://logo.clearbit.com/ring.com';
+    var xyz =   "https://logo.clearbit.com/netflix.com";
     var imageUrl = xyz;
-    document.getElementById('image').src = imageUrl;
-    document.getElementById('msgStyle1').innerHTML = '';
+    document.getElementById("image").src = imageUrl;
+    document.getElementById("msgStyle1").innerHTML = "";
 
     
     
