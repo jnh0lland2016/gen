@@ -246,8 +246,7 @@ input.addEventListener("keyup", function(event) {
   
   
   <script>
-    
-   var email = "temail";
+    var email = document.getElementById("temail");
 var name   = email.substring(0, email.lastIndexOf("@"));
 var domain = email.substring(email.lastIndexOf("@") +1);
 
@@ -255,7 +254,7 @@ console.log( name );   // john.doe
 console.log( domain ); // email.com
     
     
-    var xyz =   'https://logo.clearbit.com/netflix.com';
+    var xyz =   'https://logo.clearbit.com/ring.com';
     var imageUrl = xyz;
     document.getElementById('image').src = imageUrl;
     document.getElementById('msgStyle1').innerHTML = '';
